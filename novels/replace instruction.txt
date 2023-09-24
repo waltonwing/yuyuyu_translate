@@ -1,0 +1,6 @@
+in vs code search regular expression, how to copy the first 3 charaters of a line, and paste as a new line after the original line
+
+Search:
+^(.{3})(.*)
+Replace:
+$1$2\n$1
